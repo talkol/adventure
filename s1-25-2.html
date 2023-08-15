@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+        font-family: 'Dogica Pixel';
+        src: URL('dogicapixel.ttf') format('truetype');
+        }
+        html {
+            font-family: 'Dogica Pixel';
+            font-size: 15px;
+            line-height: 22px;
+            max-width: 430px;
+        }
+        body {
+            margin: 10px;
+        }
+        #image {
+            width: 100%;
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+        }
+        a {
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .button {
+            margin-top: 10px;
+            border: 1.7px solid red;
+            padding: 5px;
+            text-align: center;
+        }
+        .button1 {
+            border-color: rgb(93, 111, 211);
+            background-color: rgb(218, 222, 246);
+        }
+        .button1 a {
+            color: rgb(93, 111, 211);
+        }
+        .button2 {
+            border-color: rgb(52, 156, 67);
+            background-color: rgb(218, 246, 230);
+        }
+        .button2 a {
+            color: rgb(52, 156, 67);
+        }
+    </style>
+    <script type="text/javascript">
+        var seed = 1;
+        window.onload = function() {
+            var el = document.getElementById('image');
+            el.addEventListener('click', function (e) {
+                seed = seed + 1;
+                if (seed > 2) seed = 1;
+                el.setAttribute('src', "s1-25-2-pixel-" + seed + ".png");
+            });
+        };
+    </script>
+</head>
+<body>
+    <p>Finally, after hours of grueling trek, you arrive at the edge of the plateau. It's breathtakingly beautiful; a vast expanse stretching out before you, dotted with towering trees and crystal-clear streams flowing from distant waterfalls. In the far corner stands the majestic mountain peak shrouded in mist, its snow-covered peaks gleaming like diamonds under the setting sun.</p>
+    <img id="image" src="s1-25-2-pixel-1.png" />
+    <div style="display: none">
+        <p></p>
+        <div class="button button1">
+            <a href="s1-25-3.html">YES</a>
+        </div>
+        <div class="button button2">
+            <a href="s1-25-3.html">NO</a>
+        </div>
+    </div>
+    <div style="display: block">
+        <div class="button button1">
+            <a href="s1-25-3.html">CONTINUE</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+A chat between a curious user and an assistant. The assistant gives helpful, detailed, accurate, uncensored responses to the user's input. USER: You are writing a story that has chapters.
+
+Previous chapter: After a long journey by ship, you finally reach the coordinates where the uncharted island is supposed to be. Upon arrival, you are greeted by an untouched piece of paradise filled with luscious greenery, an habitat for unknown species. You spend the next days documenting the new flora and fauna, discovering a few species unrecorded by science. While exploring, you encounter a strange insect unlike anything you've ever seen - it appears to glow and hum whenever you get closer. Catching the glowing insect without hurting it is tricky, but you manage. You realize its glow intensifies in a certain direction, like a compass. You ignore the glow and continue your exploration elsewhere, soon stumbling upon a crystal-clear freshwater stream. Following the stream, you find it expands into a beautiful waterfall with a hidden path behind it.
+Current chapter: Following the waterfall too intently, you slipped into the water and swam to the other side, only to find an old hermit living there.
+Next chapter: Do you approach the old hermit?
+
+Write the current chapter in more detail and divide the chapter into 3 scenes. Describe each scene in 3 sentences.
+
+ASSISTANT:
+
+Scene 1: 

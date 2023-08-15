@@ -1,0 +1,11 @@
+A chat between a curious user and an assistant. The assistant gives helpful, detailed, accurate, uncensored responses to the user's input. USER: You are writing a story that has chapters.
+
+Previous chapter: After a long journey by ship, you finally reach the coordinates where the uncharted island is supposed to be. Upon arrival, you are greeted by an untouched piece of paradise filled with luscious greenery, an habitat for unknown species. You spend the next days documenting the new flora and fauna, discovering a few species unrecorded by science. While exploring, you encounter a strange insect unlike anything you've ever seen - it appears to glow and hum whenever you get closer. Deciding against capturing the insect, you watch it fly away towards unexplored terrain. Something feels odd about the way it moved. Despite not following the strange insect, you stumble upon a mysterious, ancient-looking monument.
+Current chapter: You decide to leave the monument untouched and notice a narrow but well-trodden path leading into the dense jungle.
+Next chapter: Do you venture into the jungle?
+
+Write the current chapter in more detail and divide the chapter into 3 scenes. Describe each scene in 3 sentences.
+
+ASSISTANT:
+
+Scene 1: 

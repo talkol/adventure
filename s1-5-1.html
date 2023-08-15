@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+        font-family: 'Dogica Pixel';
+        src: URL('dogicapixel.ttf') format('truetype');
+        }
+        html {
+            font-family: 'Dogica Pixel';
+            font-size: 15px;
+            line-height: 22px;
+            max-width: 430px;
+        }
+        body {
+            margin: 10px;
+        }
+        #image {
+            width: 100%;
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+        }
+        a {
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .button {
+            margin-top: 10px;
+            border: 1.7px solid red;
+            padding: 5px;
+            text-align: center;
+        }
+        .button1 {
+            border-color: rgb(93, 111, 211);
+            background-color: rgb(218, 222, 246);
+        }
+        .button1 a {
+            color: rgb(93, 111, 211);
+        }
+        .button2 {
+            border-color: rgb(52, 156, 67);
+            background-color: rgb(218, 246, 230);
+        }
+        .button2 a {
+            color: rgb(52, 156, 67);
+        }
+    </style>
+    <script type="text/javascript">
+        var seed = 1;
+        window.onload = function() {
+            var el = document.getElementById('image');
+            el.addEventListener('click', function (e) {
+                seed = seed + 1;
+                if (seed > 2) seed = 1;
+                el.setAttribute('src', "s1-5-1-pixel-" + seed + ".png");
+            });
+        };
+    </script>
+</head>
+<body>
+    <p>You decide to explore further away from the coastline, leaving behind the glowing insect and heading deeper into the dense forest. As you walk along the narrow path, you hear rustling sounds coming from above. Looking up, you see monkeys swinging playfully among the trees. They seem unafraid of humans which makes them even more fascinating. One of them drops down a fruit onto the ground near you; it looks similar to a banana but much larger and brighter yellow. Curious about this new discovery, you pick it up carefully and take a bite. It tastes sweet yet tangy, different than any other fruit you have tried before. This experience fills you with excitement as you realize there might be many more unique plants and animals waiting to be discovered on this mysterious island.</p>
+    <img id="image" src="s1-5-1-pixel-1.png" />
+    <div style="display: none">
+        <p></p>
+        <div class="button button1">
+            <a href="s1-5-2.html">YES</a>
+        </div>
+        <div class="button button2">
+            <a href="s1-5-2.html">NO</a>
+        </div>
+    </div>
+    <div style="display: block">
+        <div class="button button1">
+            <a href="s1-5-2.html">CONTINUE</a>
+        </div>
+    </div>
+</body>
+</html>
